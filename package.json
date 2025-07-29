@@ -1,0 +1,13 @@
+{
+  "name": "construindo-uma-pokedex-com-javascript",
+  "version": "1.0.0",
+  "description": "DIObootcamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "galafis",
+  "license": "MIT"
+}

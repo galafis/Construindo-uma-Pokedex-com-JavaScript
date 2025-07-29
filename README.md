@@ -45,3 +45,23 @@ Gabriel Lafis — estudante de Ciência de Dados e entusiasta da web.
 ---
 
 Esse projeto foi uma forma divertida de reforçar conhecimentos em JavaScript e consumo de APIs. Se quiser sugerir melhorias, fique à vontade para abrir um Pull Request ou mandar uma ideia! 😉
+
+
+## 📋 Descrição
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 📦 Instalação
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 💻 Uso
+
+Descreva aqui o conteúdo desta seção.
+
+
+## 📄 Licença
+
+Descreva aqui o conteúdo desta seção.
