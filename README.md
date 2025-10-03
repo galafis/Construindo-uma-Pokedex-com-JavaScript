@@ -126,33 +126,33 @@ graph TD
 
 ## 📋 Descrição
 
-Descreva aqui o conteúdo desta seção.
+Este projeto é uma Pokédex interativa que consome a PokéAPI para exibir informações sobre Pokémon. Ele foi desenvolvido como parte de um bootcamp da Digital Innovation One (DIO) e aprimorado com funcionalidades adicionais e um design mais profissional.
 
 ## 📋 Description
 
-Describe the content of this section here.
+This project is an interactive Pokédex that consumes the PokéAPI to display information about Pokémon. It was developed as part of a Digital Innovation One (DIO) bootcamp and enhanced with additional features and a more professional design.
 
 ## 📦 Instalação
 
-Descreva aqui o conteúdo desta seção.
+Não há etapas de instalação complexas. Basta clonar o repositório e abrir o arquivo `docs/index.html` em seu navegador.
 
 ## 📦 Installation
 
-Describe the content of this section here.
+There are no complex installation steps. Simply clone the repository and open the `docs/index.html` file in your browser.
 
 ## 💻 Uso
 
-Descreva aqui o conteúdo desta seção.
+Após abrir o `docs/index.html` no navegador, você pode pesquisar Pokémon pelo nome ou ID usando o campo de busca, ou navegar entre eles usando os botões "Anterior" e "Próximo".
 
 ## 💻 Usage
 
-Describe the content of this section here.
+After opening `docs/index.html` in your browser, you can search for Pokémon by name or ID using the search field, or navigate between them using the "Previous" and "Next" buttons.
 
 ## 📄 Licença
 
-Descreva aqui o conteúdo desta seção.
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 📄 License
 
-Describe the content of this section here.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
