@@ -1,7 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/linux,macos,windows,html
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,windows,html
 
-#!! ERROR: html is undefined. Use list command to see defined gitignore types !!#
+
 
 ### Linux ###
 *~
@@ -25,7 +25,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -77,3 +78,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,macos,windows,html
+
+
+node_modules/
+package-lock.json
+
