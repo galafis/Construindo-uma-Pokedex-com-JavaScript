@@ -1,0 +1,9 @@
+graph TD
+    A[Usuário acessa Pokedex] --> B{Pesquisa Pokémon por nome/ID?}
+    B -- Sim --> C[Input do usuário]
+    B -- Não --> D[Navega com botões Anterior/Próximo]
+    C --> E[Chama PokéAPI]
+    D --> E
+    E --> F{API retorna dados?}
+    F -- Sim --> G[Renderiza Pokémon na tela]
+    F -- Não --> H["Exibe Não encontrado :("]
