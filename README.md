@@ -32,7 +32,9 @@ Apesar da inspiração vir diretamente do repositório oficial da DIO ([js-devel
 1. Clone o repositório:
 ```bash
 git clone https://github.com/galafis/Construindo-uma-Pokedex-com-JavaScript
-```2. Acesse a pasta do projeto e abra o `docs/index.html` em seu navegador (ou visite a página do GitHub Pages):``bash
+```
+2. Acesse a pasta do projeto e abra o `docs/index.html` em seu navegador (ou visite a página do GitHub Pages):
+```bash
 cd pokedex-dio
 ```
 

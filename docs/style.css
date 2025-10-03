@@ -1,0 +1,130 @@
+:root {
+  --primary-color: #ffcb05;
+  --secondary-color: #2a75bb;
+  --font-color: #333;
+  --bg-color: #f2f2f2;
+  --white: #fff;
+  --retro-font: 'Press Start 2P', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-color);
+  font-family: var(--retro-font);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+main {
+  background: var(--white);
+  border: 5px solid var(--primary-color);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.pokemon_image {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 55%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  image-rendering: pixelated; /* Mantém o estilo pixel art */
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon_data {
+  font-size: clamp(1rem, 5vw, 1.5rem);
+  margin-top: 20%;
+  color: var(--font-color);
+  text-transform: capitalize;
+}
+
+.pokemon_number {
+    color: #888;
+}
+
+.form {
+  width: 100%;
+  margin: 5% 0;
+}
+
+.input_search {
+  width: 100%;
+  padding: 1rem;
+  font-size: clamp(0.7rem, 4vw, 1rem);
+  border: 2px solid var(--secondary-color);
+  border-radius: 10px;
+  outline: none;
+  font-family: var(--retro-font);
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  font-family: var(--retro-font);
+  font-size: clamp(0.6rem, 4vw, 0.8rem);
+  padding: 0.8rem 1.2rem;
+  background-color: var(--secondary-color);
+  color: var(--white);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+  background-color: #3b9cdb;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.6rem;
+  color: #555;
+  font-family: Arial, sans-serif;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+  main {
+    padding: 1.5rem;
+  }
+
+  .pokemon_image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
